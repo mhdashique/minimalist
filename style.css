@@ -1,0 +1,334 @@
+
+
+body{
+  margin: 0px;
+}
+
+.navbar{
+    margin-top: px;
+    background-color: black;
+    height: 100px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    z-index: 99;
+}
+.nav-menu{
+   margin-left: 4vw;
+}
+.nav-menu:hover{
+    cursor: pointer;
+    background-color: rgb(63, 62, 62);
+    
+}
+.minimalist img{
+    width: 140px;
+    margin-left: 80px;
+}
+.minimalist img:hover{
+    cursor: pointer;
+}
+.nav-icons{
+    display: flex;
+    margin-right: 3vw;
+    gap: 3vw;
+    display: flex;
+    align-items: center;
+      
+}
+.nav-icons i:hover{
+    cursor: pointer;
+}
+.first-body{
+    display: flex;
+    transform: translateY(5vw);
+}
+.eye-cream img{
+    width: 770px;
+}
+.eye-cream-details{
+    padding-top: 90px;
+    padding-left: 40px;
+    width: 350px;
+    font-family: 'Poppins', sans-serif;
+}
+.eye-cream-para{
+    
+     line-height: 25px;
+     font-family:sans-serif;
+     font-weight: 500;
+     width: 330px;
+     letter-spacing: 1px;
+     font-size: large;
+     
+}   
+.eye-cream-button{
+    background-color: black;
+    color: white;
+    width: 180px;
+    height: 50px;
+
+}
+.eye-cream-button:hover{
+    cursor: pointer;
+}
+.second-body{
+   
+    margin-top: 100px;
+    margin-left: 20px;
+  
+  
+}
+.second-body-1{
+    margin: 5px;
+
+}
+.second-body-2{
+    font-family:Arial, Helvetica, sans-serif;
+    margin: 5px;
+  
+}
+.girl-eye img{
+    width: 97%;
+    overflow: hidden;
+    padding-left: 20px;
+    padding-top: 30px;
+}
+.bottle-images img{
+    width: 340px;
+    height: 340px;
+}
+.bottle-images-class{
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin-top: -200px;
+    z-index: 2;
+    
+}
+.third-body{
+    margin-bottom: 40px;
+}
+.button-class{
+    display: flex;
+    gap: 13%;
+    margin-top: 20px;
+    justify-content: center;
+    
+}
+.bottle-button{
+    z-index: 4;
+    
+}
+.bottle-button button{
+    width: 200px;
+    height: 60px;
+    font-size: larger;
+    font-weight: 700;
+    padding-left: 20%;
+    padding-right: 20%;
+    border: none;
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+.bottle-button button:hover{
+    cursor: pointer;
+}
+.fourth-body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color:rgb(236, 243, 246)
+}
+.fourth-h1{
+    margin-bottom: 0px;
+    margin-top: 30px;
+}
+.fourth-p{
+    margin-top: 5px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.fourth-button button{
+    background-color: black;
+    width: 250px;
+    height: 50px;
+    color: white;
+    font-size: medium;
+    margin-bottom: 50px;
+    margin-top: 10px;
+    border: none;
+
+}
+.fourth-button button:hover{
+    cursor: pointer;
+}
+.fifth-body{
+         margin-top: 140px;
+         display: flex;
+         flex-direction: column;
+         height: 350px;
+         overflow: hidden;
+         margin-left: 30px;
+         
+       
+}
+.fifth-h1{
+    font-size: larger;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 30px;
+}
+.product-value{
+    display: flex;
+    gap: 3%;
+    
+   
+    
+}
+.product-value-class{
+    width: 350px;
+    height:350px;
+    margin-left: 10px;
+   
+    
+
+}
+.product-value-h1{
+    font-size: larger;
+    font-weight: 600;
+    
+}
+
+.transparencyicon img{
+   width: 70px;
+   height: 70px;
+   margin-left: -15px;
+   margin-bottom: 10px;
+   
+}
+.efficacyicon img{
+    width: 70px;
+   height: 70px;
+   margin-bottom: 10px;
+}
+.serumicon img{
+    width: 70px;
+    height: 70px;
+    margin-left: -15px;
+    margin-bottom: 10px;
+}
+.product-value-para{
+    margin-top: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(90, 90, 89);
+    line-height: 22px;
+    font-size: medium;
+}
+
+
+
+.sixth-body{
+    background-color:rgb(228, 229, 230);
+    display:flex;
+    padding-left: 40px;
+    padding-right: 30px;
+    
+
+}
+.sixth-body-class{
+    
+   width: 600px;
+   display: flex;
+   flex-direction: column;
+   justify-content: space-between;
+   align-items: center;
+   background-color:white;
+   margin-right: 20px;
+   padding: 4%;
+   margin-top: 60px;
+   margin-bottom: 60px;
+   cursor:grab ;
+  
+  
+}
+.sixth-body-class p{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: medium;
+    text-align: center;
+    
+
+}
+.sixth-body-class h3{
+   font-family: Arial, Helvetica, sans-serif;
+   font-size: medium;
+}
+
+
+.footer{
+    background-color: rgb(15, 15, 15);
+    height: 500px;
+}
+.footer-top{
+
+    display: flex;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif ;
+    font-size: medium;
+    padding: 5%;
+    gap: 30px;
+    color: rgb(238, 240, 244);
+    
+    
+}
+.footer-first{
+    height: 230px;
+}
+.footer-first h3{
+    margin-bottom:50px;
+}
+.footer-first h3:hover{
+    cursor: context-menu;
+}
+.footer-first h4{
+    line-height: 8px;
+    text-decoration: underline;
+    text-underline-offset: 3px;
+    text-decoration-thickness: 0.1px;
+    text-decoration-color: rgb(65, 63, 60);
+   
+   
+}
+.footer-first h4:hover{
+    text-decoration-thickness: 0.4px;
+    cursor: pointer;
+    text-decoration-color: aliceblue;
+    transition-duration: 0.5s;
+}
+.footer-bottom{
+    padding-left: 6%;
+    padding-right: 6%;
+    padding-top: 0px;  
+}
+.footer-bottom-first{
+    border-top: solid 1px;
+    border-top-color:gray;
+}
+.media-icons{
+    display: flex;
+    gap: 20px; 
+    margin-top: 50px;
+}
+
+.media-icons i:hover{
+    cursor: pointer;
+}
+.last{
+    font-size: large;
+    margin-top: 20px;
+    color: rgb(189, 190, 190);
+    font-family: Arial, Helvetica, sans-serif;
+}
+.last span{
+    cursor: pointer;
+}
